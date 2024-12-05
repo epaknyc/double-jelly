@@ -48,6 +48,6 @@ p.subtitle {
 @media(max-width: 485px){
     h1.title {
         text-align: center;
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }
