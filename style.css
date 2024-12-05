@@ -35,7 +35,7 @@ h1 img {
     display: flex;
     justify-content: center; 
     align-items: center;
-    height: 1auto;
+    height: auto;
     width: 100%;
     max-width: 300px;
 }
@@ -61,6 +61,6 @@ p.subtitle {
 @media(max-width: 485px){
     h1.title {
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
