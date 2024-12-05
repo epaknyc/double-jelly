@@ -25,10 +25,19 @@ body {
 
 h1.title {
     color: #fff;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+h1 img {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 1auto;
+    width: 100%;
+    max-width: 300px;
 }
 
 p.subtitle {
@@ -36,6 +45,10 @@ p.subtitle {
     letter-spacing: 1px;
     margin: 1rem 0;
     font-size: 1.5rem;
+}
+
+.social {
+    padding: 20px 0;
 }
 
 .social a {
@@ -48,6 +61,6 @@ p.subtitle {
 @media(max-width: 485px){
     h1.title {
         text-align: center;
-        font-size: 2rem;
+        font-size: 1rem;
     }
 }
